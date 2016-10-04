@@ -5,5 +5,12 @@
 
   &__container {
     margin: 1rem;
+
+    &__float {
+      float: left;
+  }
+    &__tab-list {
+      float: right;
+  }
 }
 }
