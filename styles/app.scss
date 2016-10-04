@@ -1,4 +1,5 @@
 $c-warning: #de4343;
+$c-full-page: #580ba6;
 $c-navbar: #285cbf;
 
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
@@ -7,4 +8,5 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'reset';
 
 // @import 'adonis';
+@import 'components/full-page';
 @import 'components/navbar';
