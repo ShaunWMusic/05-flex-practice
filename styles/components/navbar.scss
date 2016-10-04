@@ -1,4 +1,9 @@
 .navbar {
-  display: flex;
+  // display: flex;
+  // justify-content: center;
   background: $c-navbar;
+
+  &__container {
+    margin: 1rem;
+}
 }
