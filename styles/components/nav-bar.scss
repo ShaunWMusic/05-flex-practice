@@ -1,9 +1,9 @@
 .nav-bar {
-  background: $c-navbar;
-  margin: auto;
-  width: 100%;
   display: inline-block;
-  overflow: auto;
+  width: 100%;
+  margin: auto;
+  background: $c-navbar;
+  // overflow: auto;
 
   &__container {
     margin: $gutter;
