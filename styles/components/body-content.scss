@@ -1,0 +1,15 @@
+.body-content {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__card {
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
+  margin: $gutter;
+
+  flex-grow: 1;
+  }
+}
+
+.container {
+  margin: $gutter;
+}
