@@ -1,0 +1,13 @@
+.position-hero {
+  position: relative;
+  width: 100%;
+  height: 40vh;
+  background: $c-position;
+
+  &__title {
+    position: absolute;
+    bottom: 50%;
+    left: 20%;
+    transform: translate(0, 100%);
+  }
+}

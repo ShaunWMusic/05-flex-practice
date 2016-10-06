@@ -2,6 +2,7 @@ $c-warning: #de4343;
 $c-full-page: #fff;
 $c-navbar: #285cbf;
 $c-flexbox: #6ea1c8;
+$c-position: #d6ee89;
 $gutter: 1rem;
 
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
@@ -13,3 +14,4 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'components/full-page';
 @import 'components/nav-bar';
 @import 'components/flexbox-hero';
+@import 'components/position-hero';
