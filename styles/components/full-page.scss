@@ -1,6 +1,5 @@
 .full-page {
-  display: flex;
-  flex-direction: column;
-
-  background: $c-full-page;
+  max-width: 65rem;
+  margin: auto;
+  // background: $c-full-page;
 }

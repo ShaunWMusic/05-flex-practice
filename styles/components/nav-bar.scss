@@ -1,0 +1,24 @@
+.nav-bar {
+  background: $c-navbar;
+  margin: auto;
+  width: 100%;
+  display: inline-block;
+  overflow: auto;
+
+  &__container {
+    margin: $gutter;
+  }
+
+  &__float {
+    float: left;
+    background: yellow;
+    overflow: auto;
+    }
+
+  &__list {
+    margin: $gutter;
+    padding: 0 2rem 0 0;
+    float: right;
+    background: orange;
+  }
+}
