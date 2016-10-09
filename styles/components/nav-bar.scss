@@ -1,24 +1,32 @@
 .nav-bar {
-  display: inline-block;
   width: 100%;
   margin: auto;
   background: $c-navbar;
   // overflow: auto;
 
   &__container {
-    margin: $gutter;
+    max-width: 65rem;
+    margin: 0 auto;
+    overflow: auto;
   }
 
   &__float {
-    float: left;
+    display: inline-block;
     background: yellow;
     overflow: auto;
+    padding: 0.5rem 1rem;
     }
 
   &__list {
+    display: inline-block;
+    float: right;
     margin: $gutter;
     padding: 0 2rem 0 0;
-    float: right;
     background: orange;
+
+    &--item {
+      float: right;
+      padding: 1rem;
+    }
   }
 }
