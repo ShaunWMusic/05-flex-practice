@@ -4,6 +4,7 @@ $c-navbar: #285cbf;
 $c-flexbox: #6ea1c8;
 $c-position: #d6ee89;
 $c-body: #195347;
+$c-footer: #68e93a;
 $gutter: 1rem;
 
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
@@ -17,3 +18,4 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'components/flexbox-hero';
 @import 'components/position-hero';
 @import 'components/body-content';
+@import 'components/footer';
