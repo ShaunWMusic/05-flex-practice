@@ -1,6 +1,8 @@
 .footer-container {
+  position: relative;
   max-width: 65rem;
   margin: 0 auto;
+  padding: $gutter;
 }
 
 .footer-copyright {
@@ -9,4 +11,17 @@
 
 .footer-links {
   display: inline-block;
+
+  &-mid {
+    position: absolute;
+    top: 0;
+    right: 50%;
+    transform: translate( 50%, 0);
+
+  }
+
+  &-right {
+    float: right;
+    margin-top: 0;
+  }
 }
