@@ -12,9 +12,9 @@
 
   &__float {
     display: inline-block;
-    background: yellow;
     overflow: auto;
     padding: 0.5rem 1rem;
+    color: $c-full-page;
     }
 
   &__list {
@@ -22,7 +22,7 @@
     float: right;
     margin: $gutter;
     padding: 0 2rem 0 0;
-    background: orange;
+    color: $c-full-page;
 
     &--item {
       float: right;
