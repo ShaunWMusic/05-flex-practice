@@ -10,14 +10,14 @@
   &__card {
     flex-basis: calc(100% / 5 - 2rem);
     flex-grow: 1;
-    padding: $gutter;
+    margin: $gutter;
 
 
     box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
 
     &--img {
       flex-grow: 1;
-      margin: 0 -1rem;
+      margin: 0;
     }
   }
 }
@@ -29,4 +29,12 @@
 
 .last-container {
   text-align: center;
+}
+
+h3 {
+  padding: 0 1rem;
+}
+
+p {
+  padding: 0 1rem;
 }
