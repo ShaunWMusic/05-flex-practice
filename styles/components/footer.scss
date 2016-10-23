@@ -7,6 +7,7 @@
 
 .footer-copyright {
   display: inline-block;
+  padding: 0.5rem 1rem;
 }
 
 .footer-links {
@@ -16,12 +17,14 @@
     position: absolute;
     top: 0;
     right: 50%;
-    transform: translate( 50%, 0);
+    transform: translate(50%, 0);
 
   }
 
   &-right {
+    margin: 0;
+    padding: 0 4rem 0 0;
     float: right;
-    margin-top: 0;
+
   }
 }

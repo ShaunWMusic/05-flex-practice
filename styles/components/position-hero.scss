@@ -10,12 +10,14 @@
     position: absolute;
     top: 50%;
     right: 50%;
-    transform: translate(50%, -50%);
+    width: 100%;
+    transform: translate(50%, -100%);
   }
 }
 
 .position-hero__container {
   max-width: 65rem;
   margin: 0 auto;
+  padding: 0;
 
 }
