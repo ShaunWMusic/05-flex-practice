@@ -2,11 +2,14 @@
   padding: $gutter;
 
   &__container {
-    display: flex;
-    flex-wrap: wrap;
     max-width: 65rem;
     margin: 0 auto;
   }
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -1rem;
+}
 
   &__card {
     flex-basis: calc(100% / 5 - 2rem);
