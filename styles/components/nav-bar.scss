@@ -1,5 +1,6 @@
 .nav-bar {
   background: $c-navbar;
+  padding: 0 3rem;
 
   &__container {
     max-width: 65rem;
@@ -9,8 +10,7 @@
 
   &__float {
     display: inline-block;
-    margin: 0.5rem;
-    padding-left: 3rem;
+    // padding-left: 3rem;
     color: $c-full-page;
 
     }
@@ -18,7 +18,7 @@
   &__list {
     display: inline-block;
     margin: $gutter;
-    padding-right: 2rem;
+    margin-right: -1rem;
     float: right;
     color: $c-full-page;
 
