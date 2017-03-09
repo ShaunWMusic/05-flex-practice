@@ -1,8 +1,21 @@
-// @import 'yoga-sass/assets/yoga';
-// @import 'normalize-css/normalize';
+$c-warning: #de4343;
+$c-full-page: #fff;
+$c-navbar: #285cbf;
+$c-flexbox: #6ea1c8;
+$c-position: #d6ee89;
+$c-body: #195347;
+$c-footer: #68e93a;
+$gutter: 1rem;
 
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'font-awesome/scss/font-awesome';
 @import 'box-sizing';
+@import 'reset';
 
-@import 'adonis';
+// @import 'adonis';
+@import 'components/full-page';
+@import 'components/nav-bar';
+@import 'components/flexbox-hero';
+@import 'components/position-hero';
+@import 'components/body-content';
+@import 'components/footer';

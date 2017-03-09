@@ -1,0 +1,33 @@
+.footer {
+  padding: $gutter;
+}
+
+.footer-container {
+  position: relative;
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+.footer-copyright {
+  display: inline-block;
+  padding: 0.5rem 0;
+}
+
+.footer-links {
+  display: inline-block;
+
+  &-mid {
+    position: absolute;
+    top: 0;
+    right: 50%;
+    transform: translate(50%, 0);
+
+  }
+
+  &-right {
+    margin: 0;
+    padding: 0;
+    float: right;
+
+  }
+}

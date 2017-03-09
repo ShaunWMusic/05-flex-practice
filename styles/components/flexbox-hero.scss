@@ -1,0 +1,8 @@
+.flexbox-hero {
+  display: flex;
+  justify-content: center;
+  height: 40vh;
+  align-items: center;
+  background: $c-flexbox;
+  padding: $gutter;
+}
